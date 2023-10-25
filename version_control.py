@@ -18,12 +18,12 @@ def main():
 
     while True:
         menu()
-        option = int(input('Please enter an option: '))
-        if option == 1:
+        option = input('Please enter an option: ')
+        if option == '1':
             user_input = input('Please enter your password to encode: ')
             encoded_result = encode(user_input)
             print('Your password has been encoded and stored!')
-        if option == 3:
+        if option == '3':
             exit()
 
 if __name__ == '__main__':
