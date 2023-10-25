@@ -28,7 +28,7 @@ def main():
         if option == 2:
             user_input = encoded_result
             decoded_result = decoder(user_input)
-            print(f'The encoded password is {encoded_result}, and the original password is {decoded_result}')
+            print(f'The encoded password is {encoded_result}, and the original password is {decoded_result}.')
         if option == 3:
             exit()
 
