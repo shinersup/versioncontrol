@@ -5,7 +5,7 @@ def main():
         encoded_password = ""
         for digit in password:
             # Converts the character to an integer, adds 3 from each, and appends to an empty string
-            encoded_digit = str(int(digit) + 3)
+            encoded_digit = str((int(digit) + 3) % 10)
             encoded_password += encoded_digit
         return encoded_password
 
